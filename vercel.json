@@ -2,8 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "clusterai
-      /wsgi.py",
+      "src": "clusterai/wsgi.py",
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
@@ -22,8 +21,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "clusterai
-      /wsgi.py"
+      "dest": "clusterai/wsgi.py"
     }
   ]
 }

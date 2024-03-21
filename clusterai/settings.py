@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-8v@71(c^7+oxvrqzqk=)$ohp*-7yt@5p-*xg(kw28&r@56d7(r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app','.now.sh','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app','.now.sh','localhost','127.0.0.1','project3.himanshujha.xyz']
 
 
 # Application definition

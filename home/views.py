@@ -56,5 +56,5 @@ def run(request):
     #     for cluster, data in sorted_clusters:
     #         csv_writer.writerow([cluster, ', '.join(data["keywords"]), most_frequent_keywords_in_clusters[cluster], total_volumes[cluster]])
             
-    return render(request,'show.html')
+    return render(request,'show.html',{"output":1})
    
